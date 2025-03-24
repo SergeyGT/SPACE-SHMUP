@@ -13,7 +13,8 @@ public class Hero : MonoBehaviour
 
 
     [Header("Set Dynamically")]
-    private float _shieldLevel = 1;
+    public float _shieldLevel = 0;
+
     private void Awake()
     {
         if(S == null)
