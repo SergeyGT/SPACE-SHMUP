@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
-  _fireRate: 0.3
+  _fireRate: 0.4
   _health: 10
   score: 100
 --- !u!114 &7859120839015039228
@@ -93,6 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _radius: -2.5
   _keepOnScreen: 0
+  isOnScreen: 1
 --- !u!1 &7680165240048997610
 GameObject:
   m_ObjectHideFlags: 0

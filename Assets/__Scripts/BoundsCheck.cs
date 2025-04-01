@@ -5,12 +5,12 @@ using UnityEngine;
 public class BoundsCheck : MonoBehaviour
 {
     [Header("Set In inspector")]
-    [SerializeField] private float _radius;
+    [SerializeField] public float _radius;
     [SerializeField] private bool _keepOnScreen = true;
 
     public bool isOnScreen = true;
-    private float camHeight;
-    private float camWidth;
+    public float camHeight;
+    public float camWidth;
 
     private void Awake()
     {
